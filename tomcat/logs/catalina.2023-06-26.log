@@ -1,0 +1,63 @@
+26-Jun-2023 06:20:41.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.76
+26-Jun-2023 06:20:41.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2023 07:17:04 UTC
+26-Jun-2023 06:20:41.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.76.0
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.10.179-171.711.amzn2.x86_64
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-11.0.19.0.7-1.amzn2.0.1.x86_64
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+26-Jun-2023 06:20:41.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+26-Jun-2023 06:20:41.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jun-2023 06:20:41.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jun-2023 06:20:41.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2023 06:20:41.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+26-Jun-2023 06:20:41.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+26-Jun-2023 06:20:41.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+26-Jun-2023 06:20:41.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Jun-2023 06:20:42.015 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+26-Jun-2023 06:20:42.080 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1485] milliseconds
+26-Jun-2023 06:20:42.240 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2023 06:20:42.242 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.76]
+26-Jun-2023 06:20:42.282 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/tomcat/webapps/spring.war]
+26-Jun-2023 06:20:42.906 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/tomcat/webapps/spring.war] has finished in [623] ms
+26-Jun-2023 06:20:42.908 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/tomcat/webapps/ram.war]
+26-Jun-2023 06:20:42.965 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/tomcat/webapps/ram.war] has finished in [57] ms
+26-Jun-2023 06:20:42.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/tomcat/webapps/ROOT]
+26-Jun-2023 06:20:43.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/tomcat/webapps/ROOT] has finished in [43] ms
+26-Jun-2023 06:20:43.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/tomcat/webapps/docs]
+26-Jun-2023 06:20:43.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/tomcat/webapps/docs] has finished in [47] ms
+26-Jun-2023 06:20:43.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/tomcat/webapps/examples]
+26-Jun-2023 06:20:43.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/tomcat/webapps/examples] has finished in [604] ms
+26-Jun-2023 06:20:43.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/tomcat/webapps/host-manager]
+26-Jun-2023 06:20:43.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/tomcat/webapps/host-manager] has finished in [77] ms
+26-Jun-2023 06:20:43.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/tomcat/webapps/manager]
+26-Jun-2023 06:20:43.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/tomcat/webapps/manager] has finished in [49] ms
+26-Jun-2023 06:20:43.820 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+26-Jun-2023 06:20:43.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1766] milliseconds
+26-Jun-2023 06:52:20.593 INFO [http-nio-9090-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xee0x010x000x000xea0x030x030xc60xdf0x1e0x9f0x140xe1G0xdc0xd70xec0xc6DM_0x890xac0xc00xa8J\0xf20xddKgi0x8a0xd40x800x0e0x7f0xf90xb8 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+26-Jun-2023 10:46:56.694 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+26-Jun-2023 10:46:56.720 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2023 10:46:57.005 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+26-Jun-2023 10:46:57.020 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
